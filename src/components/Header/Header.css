@@ -1,0 +1,13 @@
+.nav-link{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.nav-link > div{
+    margin: 10px;
+    font-size: 18px;   
+}
+.nav-link > div > a{
+    text-decoration: none;
+    padding: 10px;
+}

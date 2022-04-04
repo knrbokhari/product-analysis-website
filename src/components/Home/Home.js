@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 import useReview from "../../hooks/useReview";
 import HomeImg from "../../images/galaxy-book-pro.jpg";
 import ReviewCart from "../ReviewCart/ReviewCart";
-import Reviews from "../Reviews/Reviews";
 import "./Home.css";
 
 const Home = () => {
-  const color = { color: "#2600ff" };
+  const color = { color: "#7a00ed" };
 
   const [reviews, setReview] = useReview();
 
   return (
     <div className="container">
-      <div className="row align-items-center mt-4">
+      <div className="row align-items-center mt-5">
         <div className="col-md-6">
           <h1>Your next laptop</h1>
           <h1 style={color}>Your best laptop</h1>
@@ -22,7 +21,7 @@ const Home = () => {
             and features. Here, we've given you the best laptops. Instant
             discounts up to ₹500 on your laptop and free delivery for students.
           </p>
-          <Link to="/Home" className="btn btn-outline-primary fs-5">
+          <Link to="/Home" className="btn btn-outline fs-5">
             Shop Now
           </Link>
         </div>
@@ -37,7 +36,7 @@ const Home = () => {
         ))}
         <Link
           to="/reviews"
-          className="btn btn-outline-primary mx-auto my-5 d-block review-all-btn fs-5"
+          className="btn btn-outline mx-auto my-5 d-block review-all-btn fs-5"
         >
           Reviews all
         </Link>

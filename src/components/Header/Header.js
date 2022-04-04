@@ -8,9 +8,12 @@ const Header = () => {
     <div>
       <Navbar bg="light" expand="lg">
         <Container>
+          <Navbar.Brand className="fs-3" style={{ cursor: "pointer" }}>
+            TheBestLaptopdb
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto nav-link align-items-center">
+            <Nav className="me-auto nav-link align-items-center justify-content-md-end">
               <CustomLink to="/Home">Home</CustomLink>
               <CustomLink to="/reviews">Reviews</CustomLink>
               <CustomLink to="/dashboard">Dashboard</CustomLink>

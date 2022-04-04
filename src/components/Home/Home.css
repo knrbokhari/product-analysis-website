@@ -14,3 +14,12 @@ h3{
 .review-all-btn{
     width: 150px;
 }
+.btn-outline{
+    color: #7a00ed;
+    border-color: #7a00ed;
+}
+.btn-outline:hover {
+    color: #fff;
+    background-color: #7a00ed;
+    border-color: #7a00ed;
+}

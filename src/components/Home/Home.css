@@ -2,3 +2,9 @@ h1{
     font-size: 38px;
     margin: 0;
 }
+h2{
+    font-size: 30px;
+}
+.review-all-btn{
+    width: 150px;
+}

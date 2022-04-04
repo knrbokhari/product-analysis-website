@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "Rating": 4.8,
+        "Profile": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "Functionality is awesome, light weight, great battery would buy again and strongly recommend!"
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "Rating": 4.6,
+        "Profile": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "I needed a reasonably priced, fast, and reliable windows computer, and Samsung delivered with this one. The battery life is great, the camera is decent, and the touch screen works great."
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "Rating": 5,
+        "Profile": "https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "I'm a Samsung electronics fan, pretty nice upgrade in this Galaxy Book Pro."
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "Rating": 4.5,
+        "Profile": "https://images.unsplash.com/photo-1628157588553-5eeea00af15c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "The laptop is extremely light and the screen is very good. It took me hours to install all the available updates and put anti-virus and a backup program on it, but after all that it works perfectly. "
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "Rating": 4.8,
+        "Profile": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "Having laptops provided by employer for several years, I hadn’t purchased in a while. Usually I think budget, but this time I splurged a bit and I am very happy. Super lightweight and very fast startup and waking."
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "Rating": 5,
+        "Profile": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+        "comment": "It us so lightweight! Love the fact that it was so easy to setup, and it can synchronize perfectly with my other Samsung devices. BTW, for me Samsung is the best brand in electronics, so I'm really pleased and happy with my purchase. Thank you! "
+    }
+]

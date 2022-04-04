@@ -5,6 +5,12 @@ h1{
 h2{
     font-size: 30px;
 }
+h3{
+    margin: 20px 0 15px;
+    font-size: 20px;
+    text-align: center;
+    color: #7a00ed;
+}
 .review-all-btn{
     width: 150px;
 }

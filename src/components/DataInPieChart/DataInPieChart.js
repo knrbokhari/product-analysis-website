@@ -6,7 +6,7 @@ const DataInPieChart = () => {
   const [data, setdata] = useData();
   return (
     <div className="mx-auto">
-      <PieChart width={430} height={300} className="mx-auto">
+      <PieChart width={400} height={300} className="mx-auto">
         <Tooltip />
         <Pie
           data={data}

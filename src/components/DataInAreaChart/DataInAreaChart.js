@@ -13,7 +13,7 @@ const DataInAreaChart = () => {
   const [data, setdata] = useData();
   return (
     <div>
-      <AreaChart width={430} height={300} data={data} className="mx-auto">
+      <AreaChart width={400} height={300} data={data} className="mx-auto">
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />

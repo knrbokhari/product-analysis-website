@@ -14,7 +14,7 @@ const DataInBarChart = () => {
   const [data, setdata] = useData();
   return (
     <div>
-      <BarChart width={430} height={300} data={data} className="mx-auto">
+      <BarChart width={400} height={300} data={data} className="mx-auto">
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="month" />
         <YAxis />

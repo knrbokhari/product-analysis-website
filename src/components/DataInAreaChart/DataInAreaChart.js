@@ -10,6 +10,7 @@ import {
 import useData from "../../hooks/useData";
 
 const DataInAreaChart = () => {
+  // custom hooks for setdata
   const [data, setdata] = useData();
   return (
     <div>

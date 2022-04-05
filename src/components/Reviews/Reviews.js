@@ -3,6 +3,7 @@ import useReview from "../../hooks/useReview";
 import ReviewCart from "../ReviewCart/ReviewCart";
 
 const Reviews = () => {
+  // custom hooks for reviews
   const [reviews, setReview] = useReview();
   return (
     <div className="mb-5">

@@ -1,6 +1,7 @@
 import React from "react";
 
 const ReviewCart = (props) => {
+  // props Destructuring
   const { name, Rating, Profile, comment } = props.review;
   return (
     <div className="col-12 mt-4">

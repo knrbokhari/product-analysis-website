@@ -6,8 +6,9 @@ import ReviewCart from "../ReviewCart/ReviewCart";
 import "./Home.css";
 
 const Home = () => {
+  // custom style
   const color = { color: "#7a00ed" };
-
+  // custom hooks for reviews
   const [reviews, setReview] = useReview();
 
   return (

@@ -11,6 +11,7 @@ import {
 import useData from "../../hooks/useData";
 
 const DataInBarChart = () => {
+  // custom hooks for setdata
   const [data, setdata] = useData();
   return (
     <div>

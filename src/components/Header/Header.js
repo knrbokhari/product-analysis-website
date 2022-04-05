@@ -11,7 +11,7 @@ const Header = () => {
           <Navbar.Brand className="fs-3" style={{ cursor: "pointer" }}>
             TheBestLaptopdb
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" className="" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto nav-link align-items-center justify-content-md-end">
               <CustomLink to="/Home">Home</CustomLink>

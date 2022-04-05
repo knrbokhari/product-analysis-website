@@ -10,6 +10,7 @@ import {
 import useData from "../../hooks/useData";
 
 const MonthWiseSell = () => {
+  // custom hooks for useData
   const [data, setdata] = useData();
   return (
     <div>

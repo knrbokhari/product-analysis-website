@@ -3,6 +3,7 @@ import useData from "../../hooks/useData";
 import { PieChart, Pie, Tooltip } from "recharts";
 
 const DataInPieChart = () => {
+  // custom hooks for setdata
   const [data, setdata] = useData();
   return (
     <div className="mx-auto">

@@ -22,7 +22,7 @@ const Home = () => {
             and features. Here, we've given you the best laptops. Instant
             discounts up to ₹500 on your laptop and free delivery for students.
           </p>
-          <Link to="/Home" className="btn btn-outline fs-5">
+          <Link to="/" className="btn btn-outline fs-5">
             Shop Now
           </Link>
         </div>
@@ -39,7 +39,7 @@ const Home = () => {
           to="/reviews"
           className="btn btn-outline mx-auto my-5 d-block review-all-btn fs-5"
         >
-          Reviews all
+          See All Reviews
         </Link>
       </div>
     </div>

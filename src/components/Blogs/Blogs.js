@@ -12,7 +12,7 @@ const Blogs = () => {
         মাধ্যমে Array, object, function ইত্যাদিকে পাঠানো যায়।
       </p>
       <h4 style={{ fontSize: "25px" }}>
-        2. Difference between inline and inline-block?
+        2. Difference between inline, block and inline-block element?
       </h4>
       <p style={{ fontSize: "20px", marginLeft: "27px", marginBottom: "5px" }}>
         <span style={{ color: "darkorange", fontWeight: 600 }}>Inline: </span>
@@ -21,13 +21,18 @@ const Blogs = () => {
         element এ প্রস্থ এবং উচ্চতা সেট করার চেষ্টা করা হয়, তাহলে এর কোনো
         প্রভাব থাকবে না।
       </p>
+      <p style={{ fontSize: "20px", marginLeft: "27px", marginBottom: "5px" }}>
+        <span style={{ color: "darkorange", fontWeight: 600 }}>Block: </span>
+        Block element এটি একই লাইনে প্রদর্শন করে না। Block element নতুন লাইনে
+        শুরু হয়। Block element এ প্রস্থ, উচ্চতা এবং padding ব্যবহার করা যায়।
+      </p>
       <p style={{ fontSize: "20px", marginLeft: "27px", marginBottom: "10px" }}>
         <span style={{ color: "darkorange", fontWeight: 600 }}>
-          Inline-block:{" "}
+          Inline-block:
         </span>
-        Inline-block এটি মূলত inline এর মতো একই জিনিস। এখানে প্রস্থ, উচ্চতা এবং
-        padding ব্যবহার করা যায়। Inline-block ও inline এর মতো একই লাইনে প্রদর্শন
-        করে।
+        Inline-block element এটি মূলত inline এর মতো একই জিনিস। Inline-block
+        element এ প্রস্থ, উচ্চতা এবং padding ব্যবহার করা যায়। Inline-block ও
+        inline এর মতো একই লাইনে প্রদর্শন করে।
       </p>
     </div>
   );

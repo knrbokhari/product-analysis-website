@@ -14,8 +14,8 @@ const NotFound = () => {
       <h3 className="mb-2">Something went wrong!</h3>
       <p className="text-center fs-4 mb-1">404 page not found..</p>
       <Link
-        to="/home"
-        className="text-decoration-none mx-auto d-block fs-5"
+        to="/"
+        className="text-decoration-none mx-auto d-block fs-5 mb-5"
         style={{ width: "101px" }}
       >
         Back to home
